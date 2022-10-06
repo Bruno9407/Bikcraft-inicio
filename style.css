@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f3f3;
+}
+
+header{
+    text-align: center;   
+    height: 150px;
+}
+
+.logo{
+    margin: 50px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+li{
+    list-style: none;
+    padding: 20px 30px;
+    background-color: white;
+}
+
+main{
+    max-width: 900px;
+    margin: 100px auto;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.mao{
+    background-color: white;
+    padding: 30px;
+    text-align: right;
+}
+
+.mao h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+span{
+    color: white;
+    background-color: #ee2211;
+    padding: 15px 25px;
+    margin-top: 20px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.bike{
+    width: 100%;
+}
+
+.bikcraft{
+    color: #c6c6c6;
+    font-size: 64px;
+    font-weight: bold;
+    padding: 40px;
+    margin-top: 50px;
+    text-align: right;
+}
+
+.vantagens{
+    background-color: white;
+    padding: 40px;
+}
+
+.vants{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+
+}
+
+
+.vants p {
+ grid-column: 2;     
+}
+
+footer{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    border: 1px  solid #c6c6c6;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+
+
+
